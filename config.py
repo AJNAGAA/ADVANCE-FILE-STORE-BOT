@@ -38,7 +38,7 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", ""))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b> Hello {first}!/\n\nI can send you ONLY FANS files & videos from @ZENUPDATESS")
+START_MSG = os.environ.get("START_MESSAGE", "<b> Hello {first}\n\nI can send you ONLY FANS files & videos from @ZENUPDATESS")
 try:
     ADMINS=[5932230962]
     for x in (os.environ.get("ADMINS", "6672416716").split()):
